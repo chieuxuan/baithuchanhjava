@@ -3,6 +3,7 @@ import nhanvien.FullTimeEployee;
 import nhanvien.PartTimeEmployee;
 import sinhvien.offlineStudent;
 import dongvat.Tiger;
+import phuongtien.TaxiCar;
 public class App {
     public static void main(String[] args) throws Exception {
        student st = new student();
@@ -22,5 +23,11 @@ public class App {
        tg.walk();
        tg.run();
        tg.Eat();
+       TaxiCar tc = new TaxiCar();
+       tc.Move();
+       tc.Reverse();
+       tc.Stop();
+       tc.TurnLeft();
+       tc.TurnRight();
     }
 }
